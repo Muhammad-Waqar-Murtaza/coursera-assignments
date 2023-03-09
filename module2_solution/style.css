@@ -1,0 +1,213 @@
+*{
+    margin:0%;
+    padding:0%;
+}
+h1{
+    text-align:center;
+    margin:50px;
+}
+.container{
+    margin-left:50px;
+}
+@media (min-width:992px){
+.col-1{
+    background-color: #817e7e;
+    border:2px solid black;
+    margin-bottom:10px;
+    padding:0px 0px 10px 10px;
+    float:left;
+    width:30%;
+    margin-right:20px;
+}
+.col-2{
+    background-color: #817e7e;
+    border:2px solid black;
+    margin-bottom:10px;
+    padding:0px 0px 10px 10px;
+    float:left;
+    width:30%;
+    margin-right:20px;
+}
+.col-3{
+    background-color: #817e7e;
+    border:2px solid black;
+    margin-bottom:10px;
+    padding:0px 0px 10px 10px;
+    float:left;
+    width:30%;
+    
+}
+.item-1{
+    background-color: pink;
+    border:2px solid black;
+    border-right:1px;
+    border-top:1px;
+    width:150px;
+    height:30px;
+    float:right;
+    text-align: center;
+}
+.item-2{
+    background-color: red;
+    border:2px solid black;
+    border-right:1px;
+    border-top:1px;
+    color:white;
+    width:150px;
+    height:30px;
+    float:right;
+    text-align: center;
+}
+.item-3{
+    background-color: lemonchiffon;
+    border:2px solid black;
+    border-right:1px;
+    border-top:1px;
+    width:150px;
+    height:30px;
+    float:right;
+    text-align: center;
+}
+p{
+    clear:right;
+    padding-top:10px;
+    padding-right:10px;
+}
+}
+@media (min-width:768px) and (max-width:991px){
+    .container{
+        margin:35px;
+    }
+    .col-1{
+        background-color: #817e7e;
+        border:2px solid black;
+        margin-bottom:10px;
+        padding:0px 0px 10px 10px;
+        float:left;
+        width:45%;
+        margin-right:20px;
+    }
+    .col-2{
+        background-color: #817e7e;
+        border:2px solid black;
+        margin-bottom:10px;
+        padding:0px 0px 10px 10px;
+        float:left;
+        width:45%;
+        
+    }
+    .col-3{
+        background-color: #817e7e;
+        border:2px solid black;
+        margin-bottom:10px;
+        padding:0px 0px 10px 10px;
+        float:left;
+        width:94%;
+        
+    }
+    .item-1{
+        background-color: pink;
+        border:2px solid black;
+        border-right:1px;
+        border-top:1px;
+        width:150px;
+        height:30px;
+        float:right;
+        text-align: center;
+    }
+    .item-2{
+        background-color: red;
+        border:2px solid black;
+        border-right:1px;
+        border-top:1px;
+        color:white;
+        width:150px;
+        height:30px;
+        float:right;
+        text-align: center;
+    }
+    .item-3{
+        background-color: lemonchiffon;
+        border:2px solid black;
+        border-right:1px;
+        border-top:1px;
+        width:150px;
+        height:30px;
+        float:right;
+        text-align: center;
+    }
+    p{
+        clear:right;
+        padding-top:10px;
+        padding-right:10px;
+    }
+    }
+
+    @media (max-width:767px){
+        .container{
+            margin:35px;
+        }
+        .col-1{
+            background-color: #817e7e;
+            border:2px solid black;
+            margin-bottom:10px;
+            padding:0px 0px 10px 10px;
+            float:left;
+            width:96%;
+            margin-right:20px;
+        }
+        .col-2{
+            background-color: #817e7e;
+            border:2px solid black;
+            margin-bottom:10px;
+            padding:0px 0px 10px 10px;
+            float:left;
+            width:96%;
+            margin-right:20px;
+        }
+        .col-3{
+            background-color: #817e7e;
+            border:2px solid black;
+            margin-bottom:10px;
+            padding:0px 0px 10px 10px;
+            float:left;
+            width:96%;
+            
+        }
+        .item-1{
+            background-color: pink;
+            border:2px solid black;
+            border-right:1px;
+            border-top:1px;
+            width:150px;
+            height:30px;
+            float:right;
+            text-align: center;
+        }
+        .item-2{
+            background-color: red;
+            border:2px solid black;
+            border-right:1px;
+            border-top:1px;
+            color:white;
+            width:150px;
+            height:30px;
+            float:right;
+            text-align: center;
+        }
+        .item-3{
+            background-color: lemonchiffon;
+            border:2px solid black;
+            border-right:1px;
+            border-top:1px;
+            width:150px;
+            height:30px;
+            float:right;
+            text-align: center;
+        }
+        p{
+            clear:right;
+            padding-top:10px;
+            padding-right:10px;
+        }
+        }
