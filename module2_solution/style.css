@@ -1,22 +1,33 @@
 *{
+    box-sizing: border-box;
     margin:0%;
     padding:0%;
+}
+body{
+    font-family:Verdana, Geneva, Tahoma, sans-serif;
+}
+.container{
+    box-sizing: border-box;
 }
 h1{
     text-align:center;
     margin:50px;
-}
-.container{
-    margin-left:50px;
+    font-size: large 75%;
 }
 @media (min-width:992px){
+    
+.container{
+    margin:50px;
+    
+}
 .col-1{
     background-color: #817e7e;
     border:2px solid black;
     margin-bottom:10px;
     padding:0px 0px 10px 10px;
     float:left;
-    width:30%;
+    position:relative;
+    width:31.7%;
     margin-right:20px;
 }
 .col-2{
@@ -25,8 +36,9 @@ h1{
     margin-bottom:10px;
     padding:0px 0px 10px 10px;
     float:left;
-    width:30%;
+    width:31.7%;
     margin-right:20px;
+    position:relative;
 }
 .col-3{
     background-color: #817e7e;
@@ -34,7 +46,7 @@ h1{
     margin-bottom:10px;
     padding:0px 0px 10px 10px;
     float:left;
-    width:30%;
+    width:31.7%;
     
 }
 .item-1{
@@ -44,8 +56,9 @@ h1{
     border-top:1px;
     width:150px;
     height:30px;
-    float:right;
     text-align: center;
+    position:sticky;
+    left:302px;
 }
 .item-2{
     background-color: red;
@@ -55,8 +68,8 @@ h1{
     color:white;
     width:150px;
     height:30px;
-    float:right;
     text-align: center;
+    float:right;
 }
 .item-3{
     background-color: lemonchiffon;
@@ -65,8 +78,8 @@ h1{
     border-top:1px;
     width:150px;
     height:30px;
-    float:right;
     text-align: center;
+    float:right;
 }
 p{
     clear:right;
@@ -76,33 +89,33 @@ p{
 }
 @media (min-width:768px) and (max-width:991px){
     .container{
-        margin:35px;
+        margin:30px;
     }
     .col-1{
         background-color: #817e7e;
         border:2px solid black;
-        margin-bottom:10px;
+        margin-bottom:30px;
         padding:0px 0px 10px 10px;
         float:left;
-        width:45%;
-        margin-right:20px;
+        width:46.25%;
     }
     .col-2{
         background-color: #817e7e;
         border:2px solid black;
-        margin-bottom:10px;
+        margin-bottom:30px;
         padding:0px 0px 10px 10px;
-        float:left;
-        width:45%;
+        float: right;
+        margin-left:24px;
+        width:46.25%;
         
     }
     .col-3{
         background-color: #817e7e;
         border:2px solid black;
-        margin-bottom:10px;
+        margin-bottom:30px;
         padding:0px 0px 10px 10px;
         float:left;
-        width:94%;
+    
         
     }
     .item-1{
@@ -150,28 +163,26 @@ p{
         .col-1{
             background-color: #817e7e;
             border:2px solid black;
-            margin-bottom:10px;
+            margin-bottom:30px;
             padding:0px 0px 10px 10px;
             float:left;
-            width:96%;
-            margin-right:20px;
+            
         }
         .col-2{
             background-color: #817e7e;
             border:2px solid black;
-            margin-bottom:10px;
+            margin-bottom:30px;
             padding:0px 0px 10px 10px;
             float:left;
-            width:96%;
-            margin-right:20px;
+            
         }
         .col-3{
             background-color: #817e7e;
             border:2px solid black;
-            margin-bottom:10px;
+            margin-bottom:30px;
             padding:0px 0px 10px 10px;
             float:left;
-            width:96%;
+            
             
         }
         .item-1{
