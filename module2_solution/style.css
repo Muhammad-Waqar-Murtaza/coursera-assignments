@@ -23,7 +23,6 @@ h1{
     margin-bottom:10px;
     padding:0px 0px 10px 10px;
     float:left;
-    position:relative;
     width:31.7%;
     margin-right:20px;
 }
@@ -35,7 +34,6 @@ h1{
     float:left;
     width:31.7%;
     margin-right:20px;
-    position:relative;
 }
 .col-3{
     background-color: #817e7e;
@@ -104,7 +102,6 @@ p{
         float: right;
         margin-left:24px;
         width:46.25%;
-        
     }
     .col-3{
         background-color: #817e7e;
@@ -112,8 +109,6 @@ p{
         margin-bottom:30px;
         padding:0px 0px 10px 10px;
         float:left;
-    
-        
     }
     .item-1{
         background-color: pink;
